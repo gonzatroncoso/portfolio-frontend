@@ -1,0 +1,139 @@
+/* SECCION PROYECTOS */
+#proyectos{
+    padding: 15px;
+    background-image: none;
+    
+  }
+  
+  .titulo-proyecto{
+    padding-top: 90px;
+    background-image: none;
+  }
+  
+  .container-proyecto{
+    background-image: none;
+    margin: 0 auto;
+      padding: 30px;
+      display: grid; 
+      grid-template-columns: 1fr 1fr; 
+      grid-template-rows: 1fr; 
+      gap: 0px 0px; 
+      width: 75%;
+      text-align: center;
+      align-items: center;   
+      border: 3px solid rgb(9, 240, 240);
+      border-radius: 10px;    
+      margin-top: 30px;
+      margin-bottom: 50px;
+  }
+  
+  .h1-proyecto{
+    background-image: none;
+  }
+  
+  .proy-img{
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .texto-proyecto{
+    background-image: none;
+    padding: 0 50px 0 50px;
+  }
+  
+  .explicacion-proyecto{
+    background-image: none;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  
+  a {
+    background-image: none;
+    text-decoration: none;
+  }
+  a:hover{
+    color: rgb(9, 240, 240);
+  }
+  
+  
+    
+    div figure{
+      padding: 5px;
+      position: relative;
+    }
+    div figure:hover figcaption{
+      display: block;
+    }
+  
+    div figcaption{
+      display: none;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      bottom: 10px;
+      right: 10px;
+      background: rgba(0,0,0,.6);
+      text-align: center;
+      padding: 15px; 
+    }
+  
+    .containers {
+      position: relative;
+      width: 95%;
+      background-image: none;
+      
+    }
+    .containers:hover{
+      border: 1px solid #A149FA;
+      transition: .8s ;
+      border-radius: 10px;
+    }
+    
+    .image {
+      opacity: 1;
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: .5s ease;
+      backface-visibility: hidden;
+      border-radius: 10px;
+    }
+    
+    .middle {
+      display: flex;
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  
+    .text{
+      margin-left: 5px;
+      border-radius: 10px;
+      
+    }
+    
+    .containers:hover .image {
+      opacity: 0.6;
+      
+    }
+    
+    .containers:hover .middle {
+      opacity: 1;
+      
+    }
+    
+    .text {
+      background-color: rgb(9, 240, 240);
+      background-image: none;
+      /* rgb(14, 196, 241); */
+      color: black;
+      font-size: 16px;
+      padding: 10px 22px;
+    }
+  
+    

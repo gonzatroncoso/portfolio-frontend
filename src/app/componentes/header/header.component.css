@@ -1,0 +1,23 @@
+
+.icono-gt{
+    font-size: 26px;
+    color: rgb(9, 240, 240);
+    text-decoration: none;
+}
+
+.footer-{    
+    justify-content: end;
+    margin-right: 10px;
+}
+.color-letra-nav{
+  color: white;
+}
+
+.color-letra-nav:hover{
+  color: rgb(9, 240, 240);
+}
+
+li{
+  margin-right: 18px;
+  font-size: 18px;
+}

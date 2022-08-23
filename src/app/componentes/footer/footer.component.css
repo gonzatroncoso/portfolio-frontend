@@ -1,0 +1,8 @@
+ /* FOOTER */
+ .footer{
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+    margin-top: 22px;
+    font-size: 12px;
+}

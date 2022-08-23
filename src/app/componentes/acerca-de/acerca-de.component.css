@@ -1,0 +1,87 @@
+
+/* Primera seccion. Mi nombre y foto */
+.titulo-h1 {
+    margin-top: 90px;
+  }
+  
+  .mi-foto{
+      width: 300px;
+      margin-top: 6%;    
+      height:300px;
+      border-radius:150px;
+      border:2px solid rgb(9, 240, 240)
+       /* rgb(14, 196, 241); */
+  }
+  
+  .centrar{
+      text-align: center;  
+  }
+  .titulo-front{
+      margin-left: 0px;
+      margin-top: 20px;
+      margin-bottom: 0px;
+  }
+
+  h1{
+    color: white;
+    
+}
+
+h2 {
+    margin-left: 130px;
+    color: white;
+    
+}
+h3{
+  color: white;
+}
+
+/* SECCION QUIEN SOY Y HABILIDADES */
+
+.titulo-quiensoy{
+  margin-top: 160px;
+}
+
+.titulo-habilidades{
+  margin-left: 20px;
+  margin-top: 160px;
+}
+
+.containerr {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    margin-bottom: 50px;
+    background-color: black;
+  }
+.txt-quiensoy{
+    font-family: "Open Sans",sans-serif;
+    margin-top: 40px;
+    margin-left: 150px;
+    line-height: 1.5;
+       
+}
+
+#habilidades{
+  margin: 0 auto;
+}
+
+.icono-container{
+    margin-left: 10%;
+    width: 20%;
+    margin-right: 100px;     
+    display: grid; 
+    grid-template-columns: 0.4fr 0.4fr 0.4fr; 
+    grid-template-rows: 1fr 1fr ; 
+    gap: 0px 0px; 
+  
+}
+
+.icono{
+    margin-right: 55px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

@@ -1,0 +1,47 @@
+
+<section>
+    <h1>Educacion</h1>
+
+    <div class="col-lg-2">
+        <button type="button" class="btn btn-dark" routerLink="/nuevaedu" *ngIf="isLogged">
+            Agregar Educacion
+        </button>
+    </div>
+
+    <div *ngFor="let Educacion of educacion">
+        <!-- <h2>Tecnico Superior En Desarrollo De Software (En Curso)</h2> -->
+        <h2>{{Educacion.nombreE}}</h2>
+        
+        <!-- <p> IFTS 11 (Instituto de formacion tecnica superior ) </p> -->
+
+        <p>  {{Educacion.descripcionE}}  </p>
+
+        <div *ngIf="isLogged">
+            <button class="btn btn-light" routerLink="/editedu/{{Educacion.id}}">
+                <i class="bi bi-pencil-fill"></i> EDITAR</button>
+        </div>
+        <div *ngIf="isLogged">
+            <button class="btn btn-danger" (click)="delete(Educacion.id)">
+                <i class="bi bi-trash-fill"></i> BORRAR</button>
+        </div>
+    </div>
+
+    <!-- <div>
+        <h2>Desarrollo Web - CoderHouse</h2>
+
+        <p>Frontend  (HTML - CSS - JAVASCRIPT - REACT)</p>
+    </div> -->
+
+    
+
+    <!-- <div>
+        <h2>Curso Argentina Programa</h2>
+
+        <p>Frontend - Backend</p>
+    </div> -->
+
+   
+
+
+</section>
+
