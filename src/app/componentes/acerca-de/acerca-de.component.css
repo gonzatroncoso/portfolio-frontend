@@ -36,14 +36,9 @@ h3{
   color: white;
 }
 
-/* SECCION QUIEN SOY Y HABILIDADES */
+/* SECCION QUIEN SOY*/
 
 .titulo-quiensoy{
-  margin-top: 160px;
-}
-
-.titulo-habilidades{
-  margin-left: 20px;
   margin-top: 160px;
 }
 
@@ -61,27 +56,4 @@ h3{
     margin-left: 150px;
     line-height: 1.5;
        
-}
-
-#habilidades{
-  margin: 0 auto;
-}
-
-.icono-container{
-    margin-left: 10%;
-    width: 20%;
-    margin-right: 100px;     
-    display: grid; 
-    grid-template-columns: 0.4fr 0.4fr 0.4fr; 
-    grid-template-rows: 1fr 1fr ; 
-    gap: 0px 0px; 
-  
-}
-
-.icono{
-    margin-right: 55px;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
 }

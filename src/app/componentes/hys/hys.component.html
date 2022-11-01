@@ -1,0 +1,28 @@
+
+<!-- --------------------------------------------------- -->
+
+
+<section id="habilidades">
+    <h1>Habilidades</h1>
+
+    <div class="col-lg-2">
+        <button type="button" class="btn btn-dark" routerLink="/newskill" *ngIf="isLogged">
+            Agregar habilidad
+        </button>
+    </div>
+
+    <div *ngFor="let skill of skill">
+        
+        <h2>{{skill.nombre}}</h2>
+        
+        <div *ngIf="isLogged">
+            <button class="btn btn-light" routerLink="/editskill/{{skill.id}}">
+                <i class="bi bi-pencil-fill"></i> EDITAR</button>
+        </div>
+        <div *ngIf="isLogged">
+            <button class="btn btn-danger" (click)="delete(skill.id)">
+                <i class="bi bi-trash-fill"></i> BORRAR</button>
+        </div>
+    </div>
+
+</section>

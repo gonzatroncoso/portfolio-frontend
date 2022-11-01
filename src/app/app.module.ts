@@ -8,6 +8,7 @@ import { AcercaDeComponent } from './componentes/acerca-de/acerca-de.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 import { ContactoComponent } from './componentes/contacto/contacto.component';
 import { FooterComponent } from './componentes/footer/footer.component';
+import { HysComponent } from './componentes/hys/hys.component';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './componentes/login/login.component'
 import { HomeComponent } from './componentes/home/home.component';
@@ -16,6 +17,9 @@ import { interceptorProvider } from './service/interceptor-service';
 import { EducacionComponent } from './componentes/educacion/educacion.component';
 import { NeweducacionComponent } from './componentes/educacion/neweducacion.component';
 import { EditeducacionComponent } from './componentes/educacion/editeducacion.component';
+import { EditSkillComponent } from './componentes/hys/edit-skill.component';
+import { NewSkillComponent } from './componentes/hys/new-skill.component';
+
 
 @NgModule({
   declarations: [
@@ -25,11 +29,15 @@ import { EditeducacionComponent } from './componentes/educacion/editeducacion.co
     ProyectosComponent,
     ContactoComponent,
     FooterComponent,
+    HysComponent, 
     LoginComponent,
     HomeComponent,
     EducacionComponent,
     NeweducacionComponent,
-    EditeducacionComponent, 
+    EditeducacionComponent,
+    EditSkillComponent,
+    NewSkillComponent,
+    
   ],
   imports: [
     BrowserModule,
